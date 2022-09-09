@@ -6,104 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="/Styles/style.css">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <title>CCR Web Development</title>
 </head>
 <body>
     <main>
-        <nav class="level is-mobile">
-            <div class="level-left">
-                <div class="image-container">
-                    <p class="level-item">
-                        <img src="/Logo/CCR web dev (1).png" alt=""class="image-logo">
-                      </p>
+
+        <section class="hero is-medium">
+            <!-- Hero head: will stick at the top -->
+            <div class="hero-head">
+              <nav class="navbar">
+                <div class="container">
+                  <div class="navbar-brand">
+                    <a class="navbar-item">
+                      <img src="/Logo/just logo.svg" class="image-logo" alt="CCR web development logo">
+                    </a>
+                    <span class="navbar-burger" data-target="navbarMenuHeroA">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </span>
+                  </div>
+                  <div id="navbarMenuHeroA" class="navbar-menu">
+                    <div class="navbar-end">
+                      <a class="navbar-item is-active">
+                        Home
+                      </a>
+                      <a class="navbar-item">
+                        Examples
+                      </a>
+                      <a class="navbar-item">
+                        Documentation
+                      </a>
+                    </div>
+                  </div>
                 </div>
+              </nav>
             </div>
-            <div class="level-right">
-                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                  </a>
-            </div>
-          </nav>
-
-
-        <!-- Look into maybe some cool images or maybe some lottie files that would look great on this -->
-          <section id="who-we-are" class="section is-medium">
-              <h1 class="title aligned-text">
-                  Who we are
-              </h1>
-              <p class="subtitle aligned-text">
-                 We are a San Antonio Web development company and we <strong>strive</strong> to provide
-                 the best quality in town. We are with you every step of the way no matter the obstacle.
-                 We are here to make your companies website the talk of the town. 
-              </p>
-
-          </section>
-
-          <!-- Look into a cool way to offer different things on a card with some smooth animations in CSS-->
-          <section  id="what-we-offer" class="section is-medium">
-              <h2 class="title">
-                  What we offer:
-              </h2>
-                <ul>
-                    <li>24/7 assistance with any issues you may encounter</li>
-                    <li><strong>FREE</strong> unlimited revisions on all plans</li>
-                    <li>Need a mock up of a website? No problem we can help you with that as well</li>
-                </ul>
-          </section>
-
-
-          <section id="" class="section is-medium">
-            <h1 class="title" id="pacakges-id">Packages</h1>
-            <div class="card">
-                <p class="title-card">Standard</p>
-                <div class="pricecontainer">
-                  <p class="price">$2.99</p>
-                  <p class="pricedescriptor">/month</p>
-                </div>
-                <p class="includes">This Plan Includes:</p>
-                <ul class="benefitlist">
-                  <li>Awesome Benefits</li>
-                  <li>10% Discount</li>
-                </ul>
-                <div class="btncontainer">
-                  <button>Select This Plan</button>
-                </div>
-              </div>
-
-              <div class="card">
-                <p class="title-card">Standard</p>
-                <div class="pricecontainer">
-                  <p class="price">$2.99</p>
-                  <p class="pricedescriptor">/month</p>
-                </div>
-                <p class="includes">This Plan Includes:</p>
-                <ul class="benefitlist">
-                  <li>Awesome Benefits</li>
-                  <li>10% Discount</li>
-                </ul>
-                <div class="btncontainer">
-                  <button>Select This Plan</button>
-                </div>
-              </div>
-              <div class="card">
-                <p class="title-card">Standard</p>
-                <div class="pricecontainer">
-                  <p class="price">$2.99</p>
-                  <p class="pricedescriptor">/month</p>
-                </div>
-                <p class="includes">This Plan Includes:</p>
-                <ul class="benefitlist">
-                  <li>Awesome Benefits</li>
-                  <li>10% Discount</li>
-                </ul>
-                <div class="btncontainer">
-                  <button>Select This Plan</button>
-                </div>
-              </div>
-          </section>
           
+            <!-- Hero content: will be in the middle -->
+            <div class="hero-body">
+              <div class="container has-text-centered">
+                <p class="title" id="who-we-are-title">
+                    CCR Web Development
+                </p>
+                <p class="title slogan">
+                  We want to make you companies website the talk of the town
+                </p>
+                <a class="button">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Contact us</span>
+                  </a>
+              </div>
+            </div>
+        </section>
     </main>
 </body>
 </html>
