@@ -214,13 +214,6 @@ body{
     }
 }
 
-/* @media  screen and (max-width: 1000px) {
-    .columns{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-} */
 
 @media screen and (max-width: 703px ){
     .image-container{
@@ -254,12 +247,3 @@ body{
         font-size: 27px;
     }
 }
-
-/* @media screen and (max-width: 727px) {
-    .card-container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-} */
