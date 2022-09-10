@@ -12,10 +12,9 @@
 <body>
     <main>
 
-        <section class="hero is-medium">
-            <!-- Hero head: will stick at the top -->
+        <section class="hero is-medium hero-color">
             <div class="hero-head">
-              <nav class="navbar">
+              <nav class="navbar is-fixed-top">
                 <div class="container">
                   <div class="navbar-brand">
                     <a class="navbar-item">
@@ -33,10 +32,10 @@
                         Home
                       </a>
                       <a class="navbar-item">
-                        Examples
+                        Lets brainstorm
                       </a>
                       <a class="navbar-item">
-                        Documentation
+                        What can you expect
                       </a>
                     </div>
                   </div>
@@ -56,7 +55,7 @@
                             CCR Web Development
                         </p>
                         <p class="title slogan">
-                            We want to make you companies website the talk of the town
+                            Make your company's website stand out from the crowd.
                         </p>
 
                         <div class="button-container">
@@ -79,30 +78,138 @@
         </section>  
 
         <!-- This is the start of the what you can expect from us section-->
-        <div class="info-container">
+        <div id="section-color" class="info-container">
             <h1>What you can expect from us</h1>
         </div>
-        <!-- This is where the pictures and text will be split up-->
-                <section class="section is-small abv">
-                    <div class="columns">
-                        <div class="content-for-abv">
-                            <div class="column"> 
-                                <div class="abv-content">
-                                    <h1 class="title abv-title">Above and beyond</h1>
-                                    <h2 class="subtitle">
-                                        We will always strive to go above and beyond in anything we do for our clients wether that be in our designs 
-                                        or our customer service.
-                                    </h2>
-                                </div>
-                             </div> 
-                             
-                                <div class="column"> 
-                                 <div class="lottie-for-abv">
-                                    <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_myejiggj.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
-                                </div>
+
+        <section id="section-color" class="section is-small">
+            <div class="columns">
+                <div class="content-for-abv">
+                    <div class="column is-half">
+                        <div class="abv-content">
+                            <h1 class="title abv-title">Unlimited Revisions</h1>
+                            <h2 class="subtitle">
+                                Hey we are humans we can't get something right the first time and thats okay! 
+                                so we want to offer <span>UNLIMITED</span> revisions.
+                            </h2>
                         </div>
-                    </div>     
-                </section>
+                        
+                    </div>
+                    <div class="column">
+                        <div class="section-two-lottie">
+                            <div class="section-two-lottie">
+                                <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_4kx2q32n.json" mode="bounce" background="transparent"  speed="1"  style="width: 400px; height: 400px;"  loop  autoplay></lottie-player>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+              </div>
+        </section>
+
+        <section id="section-color" class="section is-small">
+            <div class="columns">
+                <div class="content-for-abv">
+                    <div class="column is-half">
+                        <div class="abv-content">
+                            <h1 class="title abv-title">Above and beyond</h1>
+                            <h2 class="subtitle">
+                                We will always strive to go above and beyond in anything we do for our clients wether that be in our designs 
+                                or our customer service.
+                            </h2>
+                        </div>
+                        
+                    </div>
+                    <div class="column">
+                        <div class="section-two-lottie">
+                            <div class="section-two-lottie">
+                                <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_myejiggj.json"  background="transparent"  speed="1"  style="width: 400px; height: 400px;"  loop  autoplay></lottie-player>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+              </div>
+        </section>
+
+        <section id="section-color" class="section is-small">
+            <div class="columns">
+                <div class="content-for-abv">
+                    <div class="column is-half">
+                        <div class="abv-content">
+                            <h1 class="title abv-title">24/7 Assistance</h1>
+                                <h2 class="subtitle">
+                                    If any issues arise we are alwasy here to help no matter
+                                    the time.
+                                </h2>
+                        </div>
+                        
+                    </div>
+                    <div class="column">
+                        <div class="section-two-lottie">
+                            <div class="section-two-lottie">
+                                <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_UGNktn.json"  background="transparent"  speed="1"  style="width: 400px; height: 400px;"  loop  autoplay></lottie-player>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+              </div>
+        </section>
+
+        <section id="" class="section is-small hero-color">
+
+            <div class="info-container">
+                <h1>Lets Brainstorm!</h1>
+            </div>
+            
+
+            <div class="field">
+                <label class="label">Name</label>
+                <div class="control">
+                  <input class="input" type="text" placeholder="Full Name">
+                </div>
+              </div>
+              
+              <div class="field">
+                <label class="label">Email</label>
+                <div class="control has-icons-left has-icons-right">
+                  <input class="input" type="email" placeholder="Email input">
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                  <span class="icon is-small is-right">
+                    <i class="fas fa-exclamation-triangle"></i>
+                  </span>
+                </div>
+                <!-- <p class="help is-danger">This email is invalid</p> -->
+              </div>
+              
+              <div class="field">
+                <label class="label">Message</label>
+                <div class="control">
+                  <textarea class="textarea" placeholder="Textarea"></textarea>
+                </div>
+              </div>
+              
+              <div class="field">
+                <div class="control">
+                  <label class="checkbox">
+                    <input type="checkbox">
+                    I agree to the <a href="#">terms and conditions</a>
+                  </label>
+                </div>
+              </div>
+              
+              <div class="field is-grouped">
+                <div class="control">
+                  <button class="button is-link">Submit</button>
+                </div>
+                <div class="control">
+                  <button class="button is-link is-light">Cancel</button>
+                </div>
+              </div>
+        </section>
     </main>
 </body>
 </html>
